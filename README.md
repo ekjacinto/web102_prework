@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/yPrGQo1.gif' title='WEB102 Pre-Work Walkthrough' width='500px' alt='WEB102 Pre-Work Walkthrough' />
+![WEB102 Pre-Work Walkthrough](https://imgur.com/yPrGQo1.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
