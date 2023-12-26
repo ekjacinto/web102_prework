@@ -1,75 +1,153 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
 
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+  font-family: "Cabin";
+  background-color: #758190;
+}
+
+button:hover {
+  background-color: lightgray;
 }
 
 #tentacles {
-    width: 50px;
+  width: 50px;
 }
 
 .header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+  display: flex;
+  background-color: #69c6e8;
+  padding: 1%;
+  align-items: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -10px;
+  justify-content: space-between;
+  color: white;
+}
+
+.header .site-logo {
+  display: flex;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+
+.info-text {
+  font-size: 1.15rem;
+}
+
+.game-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-search .games-select {
+  width: 32.5rem;
+  height: 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.game-search .search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 4rem;
+  font-size: 1.25rem;
+  margin-left: 0;
 }
 
 .stats-container {
-    display: flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stats-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
-    border-radius: 7px;
-    padding: 1%;
-    margin: 1%;
-    width: 100%;
-    text-align: center;
+  background-color: #a8b0bc;
+  border-radius: 7px;
+  padding: 1%;
+  margin: 1%;
+  width: 100%;
+  text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
-    font-size: 50px;
+.stats-card h3 {
+  font-size: 2rem;
+}
+
+.stats-card #num-contributions,
+#total-raised,
+#num-games {
+  font-size: 50px;
 }
 
 #games-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .game-img {
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .game-card {
-    background-color: #FFFFFF;
-    padding: 1%;
-    margin: 1%;
-    width: 300px;
-    text-align: center;
-    border-radius: 7px;
+  background-color: #ffffff;
+  padding: 1%;
+  margin: 1%;
+  width: 300px;
+  text-align: center;
+  border-radius: 7px;
+  border: 3px solid black;
 }
 
 .game-card:hover {
-    cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+  cursor: pointer;
+  box-shadow: 0 0 30px lightblue;
+}
+
+.game-card h3 {
+  font-size: 1.5rem;
+}
+
+.game-card p {
+  font-size: 1.15rem;
+}
+
+.game-card .game-img {
+  border: 3px solid black;
 }
 
 #button-container {
-    text-align: center;
+  text-align: center;
 }
 
 button {
-    font-family: 'Cabin';
-    border: none;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 7px;
+  font-family: "Cabin";
+  border: none;
+  padding: 1%;
+  margin: 1%;
+  border-radius: 7px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.show-btn {
+  font-size: 1.15rem;
+}
+
+.not-found-text {
+  color: red;
 }
