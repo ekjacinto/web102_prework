@@ -27,7 +27,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-![WEB102 Pre-Work Walkthrough](https://imgur.com/yPrGQo1.gif)
+![web102_prework_compressed](https://github.com/ekjacinto/web102_prework/assets/109046831/fd03072b-08fc-4636-b708-6076fafbbd78)
 
 <!-- Replace this with whatever GIF tool you used! -->
 
